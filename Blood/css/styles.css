@@ -1,0 +1,190 @@
+html,
+body{
+    height:100%;
+    font-size:1rem;
+}
+h1 { font-family: Ubuntu; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Ubuntu; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Ubuntu; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Ubuntu; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Ubuntu; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px; }
+.gradient{
+  background: #c04b4b;
+}
+.transparent{
+    background: none!important;
+}
+.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+.header{
+    position: relative;
+}
+.header-welcome{
+    font-size:36px;
+}
+.bigpicture{
+    max-height: 450px;
+    margin-top:50px;
+    max-width: 100%;
+}
+.feature{
+    max-height:150px;
+}
+.custom-shape-divider-bottom-1635169018 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1635169018 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 140px;
+}
+
+.custom-shape-divider-bottom-1635169018 .shape-fill {
+    fill: #212529 !important;
+}
+.about{
+    position: relative;
+    background:#c04b4b;
+}
+.about img{
+    max-height:500px;
+}
+.phone{
+    max-width:100%;
+    
+}
+.gplay{
+    max-width:100%;
+}
+.appstore{
+    max-width:100%;
+    margin-bottom:100px;
+}
+.download{
+    background: #212529;
+}
+.custom-shape-divider-bottom-1635172973 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1635172973 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1635172973 .shape-fill {
+    fill: #212529;
+}
+.features{
+    position: relative;
+}
+.custom-shape-divider-bottom-1635173381 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1635173381 svg {
+    position: relative;
+    display: block;
+    width: calc(130% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1635173381 .shape-fill {
+    fill: #c04b4b;
+}
+.curve-fix{
+    margin-bottom:150px;
+}
+.download{
+    position: relative;
+}
+.custom-shape-divider-top-1635174101 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1635174101 svg {
+    position: relative;
+    display: block;
+    width: calc(130% + 1.3px);
+    height: 80px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1635174101 .shape-fill {
+    fill: #c04b4b;
+}
+.curve-fix-download{
+    margin-top:80px;
+}
+.custom-shape-divider-bottom-1635174334 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1635174334 svg {
+    position: relative;
+    display: block;
+    width: calc(130% + 1.3px);
+    height: 100px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1635174334 .shape-fill {
+    fill: #c04b4b;
+}
+.footer{
+    background:#c04b4b;
+}
+.footer p{
+    font-size:18px;
+}
+.footer img{
+    max-width:175px;
+}
+.download-text{
+    font-size:24px!important;
+}
+.nav-link{
+    color:#ffffff!important;
+}
+.text-black{
+    color:#000000!important;
+}
+.feature-title{
+    margin-top:10px
+}
+.section-title{
+    font-size:24px;
+    font-weight: bold; 
+}
