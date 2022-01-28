@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" />
+    <link rel="stylesheet" href="custom.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-primary">
+    <div class="container mx-auto sticky top-0 z-50">
+        <nav class="flex items-center justify-between flex-wrap p-6">
+            <div class="flex items-center flex-shrink-0 text-white mr-6">
+                <span class="font-semibold text-xl tracking-tight">Receipt Generator</span>
+            </div>
+            <div class="block lg:hidden">
+                <button
+                    class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <title>Menu</title>
+                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+                <div class="text-sm text-right lg:flex-grow">
+                    <a href="#responsive-header"
+                        class="text-lg font-bold block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
+                        Home
+                    </a>
+                    <a href="#responsive-header"
+                        class="text-lg font-bold block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
+                        About
+                    </a>
+                    <a href="#responsive-header"
+                        class="text-lg font-bold block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
+                        Generators
+                    </a> <a href="#responsive-header"
+                        class="text-lg font-bold block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
+                        Bot
+                    </a> <a href="#responsive-header"
+                        class="inline-block text-xl font-bold px-4 py-2 leading-none rounded-lg bg-yellow-300 text-black mt-4 lg:mt-0">
+                        VIP Login
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div id="header" class="grid grid-cols-1">
+        <div class="container mx-auto">
+            <div class="flex flex-col items-center">
+                <div class="justify-center">
+                    <img class="h-48 w-48" src="https://receiptmansion.com/images/mansion-front.svg">
+                </div>
+                <h1 class="text-7xl font-bold text-white">Receipt Generator</h1>
+                <h3 class="text-md my-3 subtext">The "one-stop" for all your invoice/receipt generating needs! </h3>
+            </div>
+            <div class="flex-col flex items-center">
+                <div>
+                    <a href="#generators">
+                        <button
+                            class="bg-yellow-300 hover:bg-yellow-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center my-6">
+                            <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 20 20">
+                                <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg>
+                            <span>Get your receipt</span>
+                        </button>
+                    </a>
+                </div>
+                <div class="mt-3 mb-8">
+                    <button type="button"
+                        class="text-white bg-telegram  font-bold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center  mr-2 mb-2">
+                        <img class="w-8 h-8 mr-4" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg">
+                        Join us  on Telegram
+                    </button>
+                    <button type="button"
+                        class="text-white bg-discord  font-bold rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center  mr-2 mb-2">
+                        <img class="w-8 h-8 mr-4" src="https://www.svgrepo.com/show/313836/discord.svg">
+                        Join us  on Discord
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="welcome" class="bg-secondary p-20">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-2">
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="flex justify-end">
+                        <img class="w-36" src="https://receiptmansion.com/images/amz2.svg">
+                    </div>
+                    <div>
+                        <img class="w-36" src="https://receiptmansion.com/images/amz2.svg">
+                    </div>
+                    <div class="flex justify-end">
+                        <img class="w-36" src="https://receiptmansion.com/images/amz2.svg">
+                    </div>
+                    <div>
+                        <img class="w-36" src="https://receiptmansion.com/images/amz2.svg">
+                    </div>
+                </div>
+                <div class="flex flex-col justify-center">
+                    <h2 class="text-white text-xl font-bold">Welcome to Receipt Generator</h2>
+                    <p class="subtext mt-2 max-w-mdfgene">We are an AIO receipt/invoice generator service operating completely free
+                        of charge. We pride ourselves in supporting a wide range of communities in making their life
+                        easier, and avoiding costly services.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="generators" class="p-10">
+        <div class="container mx-auto">
+            <h1 class="text-4xl font-bold text-center text-white mb-8">
+                Generators
+            </h1>
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-24 mt-5 flex text-center">
+                <div class="bg-card p-10 text-center align-middle rounded-xl">
+                    <img class=""
+                        src="https://receiptmansion.com/0f1da8b71f219df0a887199f02026803/admin/user_images/101641.svg">
+                    <h2 class="text-white text-center my-6">Amazon Invoice</h2>
+                    <button
+                        class="bg-yellow-300 hover:bg-yellow-400 text-gray-800 font-bold py-2 px-8 rounded inline-flex items-center mb-6 text-center">
+                        <span>Generate</span>
+                    </button>
+                </div>
+                <div class="bg-card p-10 text-center align-middle rounded-xl">
+                    <img class=""
+                        src="https://receiptmansion.com/0f1da8b71f219df0a887199f02026803/admin/user_images/101641.svg">
+                    <h2 class="text-white text-center my-6">Amazon Invoice</h2>
+                    <button
+                        class="bg-yellow-300 hover:bg-yellow-400 text-gray-800 font-bold py-2 px-8 rounded inline-flex items-center mb-6 text-center cursor-not-allowed opacity-50">
+                        <span>Generate</span>
+                    </button>
+                </div>
+                <div class="bg-card p-10 text-center align-middle rounded-xl">
+                    <img class=""
+                        src="https://receiptmansion.com/0f1da8b71f219df0a887199f02026803/admin/user_images/101641.svg">
+                    <h2 class="text-white text-center my-6">Amazon Invoice</h2>
+                    <button
+                        class="bg-yellow-300 hover:bg-yellow-400 text-gray-800 font-bold py-2 px-8 rounded inline-flex items-center mb-6 text-center">
+                        <span>Generate</span>
+                    </button>
+                </div>
+                <div class="bg-card p-10 text-center align-middle rounded-xl">
+                    <img class=""
+                        src="https://receiptmansion.com/0f1da8b71f219df0a887199f02026803/admin/user_images/101641.svg">
+                    <h2 class="text-white text-center my-6">Amazon Invoice</h2>
+                    <button
+                        class="bg-yellow-300 hover:bg-yellow-400 text-gray-800 font-bold py-2 px-8 rounded inline-flex items-center mb-6 text-center cursor-not-allowed opacity-50">
+                        <span>Generate</span>
+                    </button>
+                </div>
+                <div class="bg-card p-10 text-center align-middle rounded-xl">
+                    <img class=""
+                        src="https://receiptmansion.com/0f1da8b71f219df0a887199f02026803/admin/user_images/101641.svg">
+                    <h2 class="text-white text-center my-6">Amazon Invoice</h2>
+                    <button
+                        class="bg-yellow-300 hover:bg-yellow-400 text-gray-800 font-bold py-2 px-8 rounded inline-flex items-center mb-6 text-center">
+                        <span>Generate</span>
+                    </button>
+                </div>
+                <div class="bg-card p-10 text-center align-middle rounded-xl">
+                    <img class=""
+                        src="https://receiptmansion.com/0f1da8b71f219df0a887199f02026803/admin/user_images/101641.svg">
+                    <h2 class="text-white text-center my-6">Amazon Invoice</h2>
+                    <button
+                        class="bg-yellow-300 hover:bg-yellow-400 text-gray-800 font-bold py-2 px-8 rounded inline-flex items-center mb-6 text-center cursor-not-allowed opacity-50">
+                        <span>Generate</span>
+                    </button>
+                </div>
+                <div class="bg-card p-10 text-center align-middle rounded-xl">
+                    <img class=""
+                        src="https://receiptmansion.com/0f1da8b71f219df0a887199f02026803/admin/user_images/101641.svg">
+                    <h2 class="text-white text-center my-6">Amazon Invoice</h2>
+                    <button
+                        class="bg-yellow-300 hover:bg-yellow-400 text-gray-800 font-bold py-2 px-8 rounded inline-flex items-center mb-6 text-center">
+                        <span>Generate</span>
+                    </button>
+                </div>
+                <div class="bg-card p-10 text-center align-middle rounded-xl">
+                    <img class=""
+                        src="https://receiptmansion.com/0f1da8b71f219df0a887199f02026803/admin/user_images/101641.svg">
+                    <h2 class="text-white text-center my-6">Amazon Invoice</h2>
+                    <button
+                        class="bg-yellow-300 hover:bg-yellow-400 text-gray-800 font-bold py-2 px-8 rounded inline-flex items-center mb-6 text-center cursor-not-allowed opacity-50">
+                        <span>Generate</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="donate" class="bg-secondary p-10">
+        <div class="container mx-auto">
+            <h1 class="text-4xl font-bold text-center text-white">
+                Want to help us? Donate crypto!
+            </h1>
+            <p class="subtext text-center">Although we operate on a completely free basis, donations will assist
+                us on updating our supported
+                generators, and allow us to add more sites!
+
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-24 mt-5 flex text-center">
+                <div class="bg-card p-10 align-middle rounded-xl md:col-start-2">
+                    <img class="mx-auto w-20" src="https://receiptmansion.com/images/btc.svg">
+                    <h2 class="text-white text-center my-6">BTC
+                        <button
+                            class="bg-yellow-400 text-gray-800 font-bold py-2 px-2 rounded inline-flex items-center mt-6 text-center">
+                            <span>Copy Address</span>
+                        </button>
+                </div>
+                <div class="bg-card p-10 align-middle rounded-xl">
+                    <img class="mx-auto w-20" src="https://receiptmansion.com/images/eth.svg">
+                    <h2 class="text-white text-center my-6">ETH
+                        <button
+                            class="bg-yellow-400 text-gray-800 font-bold py-2 px-2 rounded inline-flex items-center mt-6 text-center">
+                            <span>Copy Address</span>
+                        </button>
+                </div>
+                <div class="bg-card p-10 align-middle rounded-xl">
+                    <img class="mx-auto w-20" src="https://receiptmansion.com/images/ltc.svg">
+                    <h2 class="text-white text-center my-6">LTC
+                        <button
+                            class="bg-yellow-400 text-gray-800 font-bold py-2 px-2 rounded inline-flex items-center mt-6 text-center">
+                            <span>Copy Address</span>
+                        </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="p-10">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-3">
+                <div class="flex flex-col col-start-2">
+                    <h1 class="text-white font-bold mb-4">Browse</h1>
+                    <a href="#" class="subtext font-semibold">
+                        Home
+                    </a>
+                    <a href="#" class="subtext font-semibold">
+                        Generators
+                    </a>
+                    <a href="#" class="subtext font-semibold">
+                        About
+                    </a>
+                </div>
+                <div class="flex flex-col">
+                    <h1 class="text-white font-bold mb-4">Contact</h1>
+                    <a href="#" class="subtext font-semibold">
+                        Telegram group
+                    </a>
+                    <a href="#" class="subtext font-semibold">
+                        Discord server
+                    </a>
+
+                </div>
+            </div>
+            <p class="text-center subtext mt-4">Copyright © Receipt Generator 2022</p>
+        </div>
+    </div>
+</body>
+
+</html>

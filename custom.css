@@ -1,0 +1,22 @@
+.bg-primary {
+    background-color: #140e21;
+}
+.bg-secondary{
+    background-color:#1a122a;
+}
+.bg-card{
+    background-color:#211736;
+}
+body {
+    background-color: #140e21;
+    font-family: 'Open Sans', sans-serif!important;
+}
+.subtext{
+    color:#767ca8;
+}
+.bg-telegram{
+    background-color: #2db0ec;
+}
+.bg-discord{
+    background-color: #5a3cff;
+}
