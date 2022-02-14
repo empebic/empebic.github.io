@@ -1,0 +1,47 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.bg{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.header {
+    min-height: 100vh;
+    background-image: url(https://i.pinimg.com/originals/89/89/e7/8989e7de49359710e50b5975a246268a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header nav{
+    z-index: 100;
+}
+
+#myVideo {
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.header {
+    position: relative;
+}
+
+.header video {
+    position: relative;
+    z-index: 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
